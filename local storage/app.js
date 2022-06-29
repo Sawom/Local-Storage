@@ -18,9 +18,7 @@ const removeData = (item)=>{
 }
 // save data
 const saveData = (data)=>{
-    console.log(data);
     let savedb = JSON.stringify(data);
-    console.log(savedb);
     localStorage.setItem('cart', savedb);
 }
 //get data
