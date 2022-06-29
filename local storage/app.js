@@ -31,6 +31,5 @@ const getData = ()=>{
     }else{
         saved = {};
     }
-    
     return saved;
 }
